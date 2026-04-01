@@ -1,6 +1,6 @@
 import math
 import numpy as np
-import matplotlib.pyplot as pyplot
+import matplotlib.pyplot as plt
 
 
 def f(x):
@@ -13,3 +13,5 @@ xs=np.arange(-5,5,0.25)
 print(xs)
 ys=f(xs)
 print(ys)
+
+plt.plot(xs,ys)
